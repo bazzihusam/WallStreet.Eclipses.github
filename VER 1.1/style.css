@@ -1,0 +1,331 @@
+/* styles.css */
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#section1 {
+    background-image: url('wallpaper2\ \(1\).jpg'); /* Replace 'your-image-file.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the background image covers the entire section */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+header {
+    background-color: #176B87;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%; /* Adjust the width as needed */
+    max-width: 1200px;
+}
+
+.left-side {
+    width: 60%;
+    color: #fff;
+    font-family: 'Rubic', sans-serif;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.team-title {
+    font-size: 48px; /* Increase the font size for "Wall Street Team" */
+    margin-bottom: 5px;
+}
+
+.small-text {
+    font-size: 24px; /* Increase the font size for "Experience eclipses with the space novel" */
+    margin-top: 5px;
+}
+
+.learn-more-button {
+    background-color: #fff;
+    color: #176B87;
+    border: none;
+    padding: 15px 30px; /* Increase the padding for the button */
+    font-size: 24px; /* Increase the font size for the button */
+    cursor: pointer;
+    margin-top: 20px; /* Increase the margin for the button */
+}
+
+ .learn-more-button:hover {
+    background-color: #93a0a5; /* Change background color on hover */
+}
+
+.right-side {
+    width: 80%;
+    color: #fff;
+    text-align: left;
+    margin-left: 15%;
+}
+
+.paragraph {
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 0;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 1); /* Move the shadow up by changing the y-offset to -2px */
+}
+
+#section2 {
+    background-color: #001C30; /* Background color for the second section */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+/* Adjust padding-left to move the content to the left */
+/* Style for the "Read Now" button */
+#section2 .left-side .read-now-button {
+    background-color: #176B87; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer;
+    margin-top: 35px; /* Add margin-top for spacing */
+}
+
+#section2 .read-now-button:hover {
+    background-color: #93a0a5; /* Change background color on hover */
+}
+
+#section2 .paragraph-container {
+    text-align: center;
+}
+
+#section2 .novel-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+
+#section2 .description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+/* Style for the right side of section2 */
+#section2 .right-side {
+    width: 50%;
+    background-color: #fff; /* Background color for the right side (you can change it) */
+    text-align: center;
+    padding: 20px;
+}
+
+#section2 .right-side img {
+    max-width: 90%; /* Ensure the image doesn't exceed the container width */
+}
+
+/* Style for the third section */
+#section3 {
+    background-color: #1F6E8C;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+}
+
+#section3 .content {
+    display: flex;
+    align-items: center; /* Center-align items vertically */
+}
+
+/* Style for the left side of section3 */
+#section3 .left-side {
+    width: 50%;
+    padding: 20px;
+    margin-right: 40px; /* Add margin to the right side of the left-side content */
+    text-align: right;
+}
+
+/* Style for the right side of section3 */
+#section3 .right-side {
+    width: 50%;
+    padding: 20px;
+    margin-left: 40px; /* Add margin to the left side of the right-side content */
+    text-align: left;
+}
+
+/* Style for the image within the right side */
+#section3 .right-side img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Style for the title in section3 */
+#section3 .survey-title {
+    font-size: 48px; /* Increase the font size for the title */
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style for the description in section3 */
+#section3 .description {
+    font-size: 25px; /* Increase the font size for the description */
+    line-height: 1.7;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Style for the "More Info" button in Section 3 */
+.more-info-button {
+    background-color: #fff; /* Button background color */
+    color: #004863; /* Button text color */
+    border: none;
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 20px; /* Adjust font size as needed */
+    cursor: pointer;
+    margin-top: 20px; /* Add margin-top for spacing */
+    margin-right: 180px;
+}
+
+/* Style for button hover effect */
+.more-info-button:hover {
+    background-color: #93a0a5; /* Change background color on hover */
+}
+
+.paragraph-container {
+    text-align: center;
+}
+
+/* Add your CSS styles here */
+#section4 {
+    background-color: #2E8A99;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Style for the title in section4 */
+#section4 .team-title {
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white; /* Add this line to change the font color to white */
+}
+
+#section4 .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Style for the team members in section4 */
+#section4 .team-member {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-family: 'Rubik', sans-serif; /* Change the font to Rubik */
+    width: calc(33.33% - 40px); /* Adjust the width as needed */
+    max-width: 300px; /* Adjust the maximum width as needed */
+    box-sizing: border-box; /* Include padding and borders in the width calculation */
+}
+
+/* Limit the maximum size of team member images */
+#section4 .team-member img {
+    max-width: 100%; /* Limit the image width to its container */
+    max-height: 150px; /* Set a maximum height for the image */
+    margin-bottom: 10px;
+}
+
+#section4 .member-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#section4 .member-info {
+    font-family: 'Rubik', sans-serif; /* Change the font to Rubik */
+    font-size: 16px; /* You can adjust the font size as needed */
+    color: white;
+}
+
+
+
+/* styles.css */
+
+/* ... Your existing CSS code ... */
+
+#goUpButton {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0; /* Remove padding */
+    width: 40px; /* Set the width of the button */
+    height: 40px; /* Set the height of the button */
+    background: none; /* Remove background */
+    background-image: url('up-arrow\ \(1\).png'); /* Replace 'your-image-url.png' with the actual path to your image */
+    background-size: cover; /* Ensure the background image covers the button */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center center; /* Center the background image both horizontally and vertically */
+    border: none;
+    cursor: pointer;
+    z-index: 9999;
+}
